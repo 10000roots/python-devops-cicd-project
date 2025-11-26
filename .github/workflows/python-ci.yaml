@@ -3,7 +3,7 @@ name: CI/CD for simple-http-checker
 on:
   push:
     branches: ['main']
-  worlflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build-and-test:
